@@ -1,6 +1,6 @@
 {
   "name": "APODExplorer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A trivial APOD API client",
   "main": "index.js",
   "repository": "https://github.com/cfv1984/apod-explorer",
