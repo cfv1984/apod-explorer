@@ -1,0 +1,49 @@
+{
+  "name": "APODExplorer",
+  "version": "0.0.1",
+  "description": "A trivial APOD API client",
+  "main": "index.js",
+  "repository": "https://github.com/cfv1984/apod-explorer",
+  "author": "Carlos Vergara <cfvergara@gmail.com>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "axios": "0.18.0",
+    "babel-loader": "8.0.0",
+    "classnames": "^2.2.6",
+    "css-loader": "1.0.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "lodash-es": "^4.17.11",
+    "node-sass": "^4.9.3",
+    "prop-types": "15.6.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "redux-actions": "2.6.1",
+    "redux-saga": "0.16.0",
+    "reselect": "3.0.1",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.0",
+    "to-string-loader": "1.1.5",
+    "webpack": "4.17.1",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.7"
+  },
+  "scripts": {
+    "build": "webpack --config config/webpack/prod.js --mode=production",
+    "serve": "webpack-dev-server --config config/webpack/dev.js --mode=development",
+    "all": "node -e \"Object.keys(JSON.parse(fs.readFileSync('./package.json').toString()).scripts).forEach(function(c){console.log(c)})\""
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-syntax-dynamic-import": "7.0.0",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/polyfill": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-stage-3": "^7.0.0",
+    "redux-devtools-extension": "2.13.5"
+  }
+}

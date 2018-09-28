@@ -1,0 +1,1 @@
+export default (dateString, separator = '-') => dateString.split(separator).map(n => Number(n));
