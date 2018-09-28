@@ -15,4 +15,4 @@ It is based on [modern-webpack-starter-project][2] which is a customizable skele
 
 [1]: https://api.nasa.gov/api.html#apod
 [2]: https://github.com/cfv1984/modern-webpack-starter-project
-[3]: /archive/v0.0.1.zip
+[3]: https://github.com/cfv1984/apod-explorer/releases/tag/v0.0.2
